@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0219/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0219/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 清微玄樞奏告儀
+  date: '2015-08-28 23:41:02.093526'
+  source:
+    repository: kanripo
+    path: KR5a0219
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0219_000-ZTDZ.yaml, hash: 'sha256:440a7d05c2cfa3dbae569cc623c2722080c664bcc3582a9a3a6fcb56a9e8bb2b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0219_000-ZTDZ.markers.yaml, hash: 'sha256:621cdd40d57d145d72724015b6ddf74e648226f8b6e123a35a7b25552d6d2004'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0219_SJB_000-030609a
+    span:
+    - body
+    - 0
+    - 3700
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:fdd3bf1f9ea28dd6d13388702452e88d2a9570277ac7d7f203db02d9ada5ee03

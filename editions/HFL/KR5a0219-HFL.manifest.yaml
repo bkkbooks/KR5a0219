@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0219/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0219/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 清微玄樞奏告儀
+  date: '2015-08-28 23:41:02.093526'
+  source:
+    repository: kanripo
+    path: KR5a0219
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0219_000-HFL.yaml, hash: 'sha256:8cc675cc4ceb03ccf95f08c26782ae4a8793d7bf8e4de3074e20c21f11804f74'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0219_000-HFL.markers.yaml, hash: 'sha256:5447f2c9c2d2471ff64fb2dfcec7b8b95ecbaca5264974cab7c826859b2948ae'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0219_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3700
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ca819fdfa0898b2a4caa6839d6938f9f3185a17304523e14295a97c7f85749ca
